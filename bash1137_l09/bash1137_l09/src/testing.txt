@@ -1,0 +1,343 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Manahil Bashir
+ID:      169061137
+Email:   bash1137@mylaurier.ca
+Version: 2024-07-05
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Hashes
+Hash     Slot Key
+-------- ---- --------------------
+3952108   6   Title:    Dellamorte Dellamore
+Year:     1994
+Director: None
+Rating:   None
+Genres:   
+1652346   3   Title:    Dark City
+Year:     1998
+Director: None
+Rating:   None
+Genres:   
+848448    6   Title:    Zulu
+Year:     1964
+Director: None
+Rating:   None
+Genres:   
+1810314   2   Title:    I Am Legend
+Year:     2007
+Director: None
+Rating:   None
+Genres:   
+2306070   4   Title:    Omega Man, The
+Year:     1971
+Director: None
+Rating:   None
+Genres:   
+3609832   2   Title:    Last Man On Earth, The
+Year:     1964
+Director: None
+Rating:   None
+Genres:   
+2016090   6   Title:    Alphaville
+Year:     1965
+Director: None
+Rating:   None
+Genres:   
+1722006   6   Title:    Stardust
+Year:     2007
+Director: None
+Rating:   None
+Genres:   
+826884    2   Title:    Juno
+Year:     2007
+Director: None
+Rating:   None
+Genres:   
+4258854   5   Title:    Darjeeling Limited, The
+Year:     2007
+Director: None
+Rating:   None
+Genres:   
+2764895   0   Title:    Broken Flowers
+Year:     2005
+Director: None
+Rating:   None
+Genres:   
+5498037   6   Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: None
+Rating:   None
+Genres:   
+3158254   1   Title:    Horror of Dracula
+Year:     1958
+Director: None
+Rating:   None
+Genres:   
+4277377   6   Title:    Jason and the Argonauts
+Year:     1963
+Director: None
+Rating:   None
+Genres:   
+2396554   6   Title:    Wrong Box, The
+Year:     1966
+Director: None
+Rating:   None
+Genres:   
+2316384   0   Title:    Finding Dory
+Year:     2016
+Director: None
+Rating:   None
+Genres:   
+4081416   3   Title:    Manos: The Hands of Fate
+Year:     1966
+Director: None
+Rating:   None
+Genres:   
+14700540      1   Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: None
+Rating:   None
+Genres:   
+177210    5   Title:    Z
+Year:     1969
+Director: None
+Rating:   None
+Genres:   
+2357873   0   Title:    Wonder Woman
+Year:     2017
+Director: None
+Rating:   None
+Genres:   
+869616    6   Title:    Zulu
+Year:     2013
+Director: None
+Rating:   None
+Genres:  
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+
+Testing Hash_Set#debug()
+
+
+Empty Hash_Set
+7 Slots
+----------------------------------------
+Slot 0
+
+----------------------------------------
+Slot 1
+
+----------------------------------------
+Slot 2
+
+----------------------------------------
+Slot 3
+
+----------------------------------------
+Slot 4
+
+----------------------------------------
+Slot 5
+
+----------------------------------------
+Slot 6
+
+----------------------------------------
+
+
+Non-empty Hash_Set
+7 Slots
+----------------------------------------
+Slot 0
+
+----------------------------------------
+Slot 1
+
+1
+----------------------------------------
+Slot 2
+
+2
+----------------------------------------
+Slot 3
+
+3
+----------------------------------------
+Slot 4
+
+4
+----------------------------------------
+Slot 5
+
+----------------------------------------
+Slot 6
+
+----------------------------------------
+
+
+Hash_Set with movies
+7 Slots
+----------------------------------------
+Slot 0
+
+Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action
+Title:    Finding Dory
+Year:     2016
+Director: Andrew Stanton, Angus MacLane
+Rating:   7.5
+Genres:   comedy
+Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy
+----------------------------------------
+Slot 1
+
+Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: Ray Dennis Steckler
+Rating:   2.2
+Genres:   horror
+Title:    Horror of Dracula
+Year:     1958
+Director: Terence Fisher
+Rating:   7.4
+Genres:   horror
+----------------------------------------
+Slot 2
+
+Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy
+Title:    Last Man On Earth, The
+Year:     1964
+Director: Ubaldo Ragona
+Rating:   6.9
+Genres:   science fiction
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+----------------------------------------
+Slot 3
+
+Title:    Manos: The Hands of Fate
+Year:     1966
+Director: Harold P. Warren
+Rating:   1.9
+Genres:   horror
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+----------------------------------------
+Slot 4
+
+Title:    Omega Man, The
+Year:     1971
+Director: Boris Sagal
+Rating:   6.6
+Genres:   science fiction, action
+----------------------------------------
+Slot 5
+
+Title:    Z
+Year:     1969
+Director: Costa-Gavras
+Rating:   8.2
+Genres:   drama
+Title:    Darjeeling Limited, The
+Year:     2007
+Director: Wes Anderson
+Rating:   7.1
+Genres:   comedy
+----------------------------------------
+Slot 6
+
+Title:    Zulu
+Year:     2013
+Director: Jerome Salle
+Rating:   6.7
+Genres:   drama
+Title:    Wrong Box, The
+Year:     1966
+Director: Bryan Forbes
+Rating:   7.0
+Genres:   comedy
+Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action
+Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action
+Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy
+Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy
+Title:    Zulu
+Year:     1964
+Director: Cy Endfield
+Rating:   7.8
+Genres:   war
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+----------------------------------------
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+
+-------------------------------------------------------
+t08
+-------------------------------------------------------
+
+-------------------------------------------------------
+t09
+-------------------------------------------------------
+
+-------------------------------------------------------
+
